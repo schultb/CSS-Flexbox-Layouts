@@ -20,3 +20,13 @@
     font-weight: lighter;
     font-style: italic;
 }
+
+.advanced-nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.advanced-nav li {
+    flex: 1 0 12em;
+}
