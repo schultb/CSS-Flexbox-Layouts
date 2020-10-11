@@ -7,13 +7,15 @@
 	.dropdown-toggle {
 		display: none;
 	}
+		
 
 
-@media screen and (min-width: 30em){
+@media screen and (min-width: 749px){
 	.multi-level-nav ul {
 		display: flex;
 		
-	}	
+	}
+}	
 
 	.multi-level-nav li {
 		position: relative;
