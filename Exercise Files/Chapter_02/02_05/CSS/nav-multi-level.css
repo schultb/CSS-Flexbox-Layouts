@@ -7,10 +7,11 @@
 	.dropdown-toggle {
 		display: none;
 	}
-}
+
 
 @media screen and (min-width: 30em){
 	.multi-level-nav ul {
+		display: flex;
 		
 	}	
 
