@@ -105,6 +105,7 @@
     .sidebar {
         flex: 0 0 12em;
         order: 2;
+        transition: flex .5s ease, padding .5s ease;
     }
     
     .sidebar-left {
@@ -118,7 +119,16 @@
     .hide {
         flex: 0 0 0;
         padding: 0;
+        color: hsla(0, 0%, 0, 0);
+        transition: color .2s ease, flex .5s ease .3s, padding .5s ease .3s;
+
     }
+
+    .hide a {
+        color: hsla(0, 0%, 0, 0);   
+    }
+
+
 
 }
 
